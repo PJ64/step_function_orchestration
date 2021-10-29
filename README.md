@@ -8,7 +8,7 @@ The AWS Step Function service allows to you design and run an orchestrated workf
 The Amazon DynamoDB table is partitioned on an ```accountid``` attribute and also includes a sort key on the ```vendorid``` attribute, together they form the unique primary key. The combination of these keys ensures that customer can only have one active order for each vendor. After the order is processed the item would be removed from the table, similar behaviour to a shopping cart.
 
 
-![architecture](./images/architecture_1.png "Architecture")
+![architecture](./images/architecture_3.png "Architecture")
 
 **AWS Step Functions state machine**
 
