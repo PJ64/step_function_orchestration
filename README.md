@@ -11,6 +11,7 @@ The Amazon DynamoDB table is partitioned on an ```accountid``` attribute and als
 ![architecture](./images/architecture_1.png "Architecture")
 
 **AWS Step Functions state machine**
+
 ![architecture](./images/architecture_2.png "Architecture")
 
 ## Setup
